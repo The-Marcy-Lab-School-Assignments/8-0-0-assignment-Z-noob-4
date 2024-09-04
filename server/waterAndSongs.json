@@ -1,0 +1,61 @@
+{
+  "water": {
+    "facts": [
+      {
+        "fact": "Water covers about 71% of the Earth's surface.",
+        "detail": "Most of this water is found in oceans, ice caps, and glaciers."
+      },
+      {
+        "fact": "The human body is about 60% water.",
+        "detail": "Water is essential for various bodily functions, including digestion, temperature regulation, and waste removal."
+      },
+      {
+        "fact": "Water is a universal solvent.",
+        "detail": "It can dissolve more substances than any other liquid, making it essential for life and many industrial processes."
+      },
+      {
+        "fact": "Freshwater is scarce.",
+        "detail": "Only about 2.5% of the Earth's water is freshwater, and much of it is locked in ice caps and glaciers."
+      }
+    ]
+  },
+  "songs": {
+    "relatedToWater": [
+      {
+        "title": "Bridge Over Troubled Water",
+        "artist": "Simon & Garfunkel",
+        "year": 1970,
+        "genre": "Folk Rock",
+        "description": "A soothing ballad symbolizing comfort and support, using water as a metaphor for life’s challenges."
+      },
+      {
+        "title": "Water Under the Bridge",
+        "artist": "Adele",
+        "year": 2015,
+        "genre": "Pop",
+        "description": "A song about moving on from past relationships, with water used as a metaphor for letting go."
+      },
+      {
+        "title": "Smoke on the Water",
+        "artist": "Deep Purple",
+        "year": 1972,
+        "genre": "Rock",
+        "description": "Inspired by a fire on Lake Geneva, this classic rock song describes a real-life event involving water."
+      },
+      {
+        "title": "Rolling in the Deep",
+        "artist": "Adele",
+        "year": 2010,
+        "genre": "Pop/Soul",
+        "description": "While not explicitly about water, the title and lyrics evoke imagery of deep waters as a metaphor for intense emotions."
+      },
+      {
+        "title": "Cry Me a River",
+        "artist": "Justin Timberlake",
+        "year": 2002,
+        "genre": "R&B",
+        "description": "A breakup song where water imagery is used to describe emotional release and moving on."
+      }
+    ]
+  }
+}
