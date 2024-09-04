@@ -19,13 +19,12 @@ const serveAbout = (req, res, next) => {
 };
 const serveSearch = (req, res, next) => {
   const filterTerm = req.query.filter || res.send('<h1><a href="/about">Go to about first</a></h1>');
-  console.log(filterTerm, Object.hasOwn(waterAndSongs, filterTerm))
   const filteredData = Object.hasOwn(waterAndSongs, filterTerm) ? waterAndSongs[filterTerm] : '<h1><a href="/about">Go to about first</a></h1>'
   res.send(filteredData);
 }
 const serveData = (req, res, next) => {
   res.json(waterAndSongs); // Content-Type is set to application/json
-  res.send(waterAndSongs); // Content-Type will also be application/json, but this is inferred
+  // res.send(waterAndSongs); // Content-Type will also be application/json, but this is inferred
 }
 // In most cases, especially when working with JSON APIs, res.json() is preferred for its explicitness, consistency, and safety in handling JSON responses.
 // res.send('Hello World!'); // Content-Type: text/html or text/plain  =>  can be mistake to html
